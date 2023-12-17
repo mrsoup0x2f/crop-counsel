@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State and City Dropdown</title>
+
+    <!-- Font and Box Icon CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="../static/css/states.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="/" class="logo"> Crop <span class="counsel">Counsel</span> </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="/" class="active"> Home </a>
+            <a href="/"> Services </a>
+            <a href="/"> Contact </a>
+        </nav>
+    </header>
+
+    <section id="header">
+        <div class="predictions"><h2>States-Based Recommendation</h2></div>
+        <form method="POST" action="/process_form" class="container">
+            <div class="state-selector">
+                <h1>Choose a State</h1>
+                <select name="selected_state" id="stateDropdown">
+                    <option value="">Select a State</option>
+                    {% for state in state_names %}
+                    <option value="{{ state }}">{{ state }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        
+            <div class="city-selector">
+                <h1>Choose a District</h1>
+                <select name="selected_city" id="cityDropdown">
+                    <option value="">Select a District</option>
+                    <option value=""></option>
+                </select>
+            </div>
+        
+            <div class="area-selector">
+                <h1>Area in Hectare</h1>
+                <input id="areaDropdown" type="number" name="numeric_input" step="0.01" placeholder="Enter a number">
+            </div>
+
+            <button class="btn"> <input type="submit" value="Submit" class="submit"> </button>
+
+            <input type="hidden" name="selected_state" id="selected_state_hidden" value="">
+            <input type="hidden" name="selected_city" id="selected_city_hidden" value="">
+        </form>
+    
+<!--     
+        <p>Selected State: {{ selected_state }}</p>
+        <p>Selected City: {{ selected_city }}</p>
+        <p>Submitted Numeric Value: {{ submitted_value }}</p> -->
+        <div class="message"><p>{{ message }}</p></div>
+        <div class="predictions"><h3>Crop Recommendations</h3></div>
+
+        <div class="row">
+        
+            {% for crop_card in crop_cards %}
+            <div class="crop-card">
+                <img src="{{ url_for('static', filename='/crops_state/image_'+ crop_card['image_filename']+'.png') }}"
+                    alt="{{ crop_card['crop_name'] }}" height="250" width="230">
+                <div class="crop-card-content">
+                    <p>Crop: {{ crop_card['crop_name'] }}</p>
+                    <p>Yield: {{ crop_card['yield'] }} Tonnes/Hec</p>
+                    <p>Season: {{ crop_card['season'] }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-iconTop">
+            <a href="#header"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Team Crop Counsel | All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#stateDropdown').change(function () {
+                var selectedState = $(this).val();
+                $.post("/get_cities", { selected_state: selectedState }, function (data) {
+                    $('#cityDropdown').empty();
+                    $.each(data.cities, function (index, city) {
+                        $('#cityDropdown').append('<option value="' + city + '">' + city + '</option>');
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

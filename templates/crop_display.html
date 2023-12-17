@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Display</title>
+    <style>
+        /* Add CSS to style the image cards and make them display in a single row */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .crop-card {
+            width: 250px; /* Adjust the width as needed */
+            margin: 10px;
+            text-align: center;
+        }
+
+        .crop-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="/display_crops" method="post">
+        <label for="input1">Input 1:</label>
+        <input type="text" name="input1" id="input1">
+        <label for ="input2">Input 2:</label>
+        <input type="text" name="input2" id="input2">
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="row">
+        {% for crop_card in crop_cards %}
+        <div class="crop-card">
+            <img src="{{ url_for('static', filename='/crops_state/'+ crop_card['image_filename']) }}" alt="{{ crop_card['crop_name'] }}">
+            <p>Crop: {{ crop_card['crop_name'] }}</p>
+            <p>Yield: {{ crop_card['yield'] }}</p>
+            <p>Season: {{ crop_card['season'] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

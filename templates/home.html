@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Counsel</title>
+
+    <!-- Font and Box Icon CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> Crop <span class="counsel">Counsel</span> </a>
+        <div class="navLinks">
+            <button class="hamburger" id="hamburger">
+                <i class='bx bx-menu' id="menu-icon"></i>
+            </button>
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="active"> Home </a>
+                <a href="#services"> Services </a>
+                <a href="#contact"> Contact </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="main-home">
+            <h3><span class="light-span">Maximizing</span> Crop Yield through <span class="light-span">Precision</span> Agriculture</h3>
+            
+            <div class="home-container">
+                <div class="home-content">
+                    <p>
+                        Crop Counsel is a cutting-edge platform designed to help farmers achieve optimal crop yields through advanced machine learning algorithms that analyze soil conditions and other key factors.
+                    </p>
+                    <div class="social-handles">
+                        <a href="https://www.linkedin.com/in/kushagrashahi/" class="fa fa-linkedin" target="_blank"></a>
+                        <a href="https://github.com/candy-kush" class="fa fa-github" target="_blank"></a>
+                        <a href="https://www.facebook.com/Meta/" class="fa fa-facebook" target="_blank"></a>
+                        <a href="https://www.instagram.com/instagram/" class="fa fa-instagram" target="_blank"></a>
+                    </div>
+                </div>
+        
+                <div class="home-img">
+                    <img src="../static/crops_state/home-img.png" alt="profile-pic">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="slide-container" id="services">
+        <h2 class="heading">
+            Our <span class="light-span">Services</span>
+        </h2>
+        <div class="container">
+            <div class="booking-card" style="background-image: url(../static/crops_state/image_10.png)">
+                <div class="book-container">
+                    <div class="content">
+                        <form action="/tryNow1" target="_blank"><a href="" target="_blank"><button class="btn-tryNow">Try Now!</button></a></form>
+                    </div>
+                </div>
+                <div class="informations-container">
+                    <h2 class="title">Soil-Based</h2>
+                    <p class="sub-title">Crop Prediction on the basis of soil type</p>
+                    <p class="price">Alluvial Soil, Black Cotton Soil, Red & Yellow Soil, etc.</p>
+                    <div class="more-information">
+                        <p class="disclaimer">A machine learning model in python that recommends the best crop to grow based on soil composition, pH level and rainfall.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="booking-card" style="background-image: url(../static/crops_state/farmer.png);">
+                <div class="book-container">
+                    <div class="content">
+                        <form action="/tryNow2" target="_blank"><a href="" target="_blank"><button class="btn-tryNow">Try Now!</button></a></form>
+                    </div>
+                </div>
+                <div class="informations-container">
+
+                    <h2 class="title">State-Based</h2>
+
+                    <p class="sub-title">Crop Prediction on the basis of geo-location</p>
+                    <p class="price">Bihar, Haryana, Punjab, Uttarakhand, Uttar Pradesh etc.</p>
+                    <div class="more-information">
+                        <p class="disclaimer">A machine learning model in python that recommends the best crop to grow based on the geo-location</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span class="light-span">Us!</span>
+        </h2>
+        <form action="mailto:kushagraranjan987@gmail.com" method="get">
+            <div class="input-box">
+                <label id="icon" for="name"><i class="fas fa-user"></i></label>
+                <input id="name" type="text" placeholder="Name" required><br>
+            </div>
+
+            <div class="input-box">
+                <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                <input id="email" type="email" placeholder="Email ID" required>
+            </div>
+
+            <div class="input-box">
+                <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+                <input id="phone" type="number" placeholder="Phone" required><br>
+                <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                <input id="emailSub" type="text" placeholder="Email Subject" required>
+                <div class="gender">
+                    <input id="gender" type="radio" value="none" id="male" name="gender" checked />
+                    <label for="male" class="radio">Male</label>
+                    <input id="gender" type="radio" value="none" id="female" name="gender" />
+                    <label for="female" class="radio">Female</label>
+                </div>
+            </div>
+
+            <textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <div class="btn-block">
+                <p>
+                    By clicking Register, you agree on our <a href="#">Privacy Policy</a>.
+                </p>
+                <button class="btn" onclick="sendEmail()" id="send-button" type="submit" href="/">Submit</button>
+            </div>
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 Crop Counsel | All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    
+    <!-- Swiper Js -->
+    <script src="../static/script/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../static/script/script.js"></script>
+</body>
+
+</html>
