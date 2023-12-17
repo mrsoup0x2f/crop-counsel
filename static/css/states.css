@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=DM+Sans&family=Lobster&family=Merriweather+Sans&family=Merriweather:wght@300&family=Montserrat:wght@400;500;600;700&family=Pacifico&family=Poppins&family=Roboto&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+:root {
+    --bg-color: hsl(0, 0%, 100%) ;
+    --second-bg-color: rgb(12, 147, 0);
+    --text-color: black ;
+    --main-color: black ;
+    --project-color: rgb(0, 181, 222);
+    --btn-color: #ffffff;
+    --second-btn-color: black;
+    --read-more-color: white;
+    --icon-color: #f2f4e2;
+}
+
+html, body {
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: var(--text-color);
+}
+
+
+section {
+    min-height: 100vh;   
+    padding: 10rem 9% 2rem;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+input:focus {
+    transform: scale(1.06);
+    background: rgb(250, 254, 243);
+    transition: 0.1s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-bg-color);
+    padding: 1.6rem 1.4rem;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 1.25rem;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+    transition: 0.2 ease;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.035);
+    text-decoration: none;
+    box-shadow: 0 0 0.1rem #2a91d1;
+}
+
+.btn input {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1px;
+    background: var(--second-bg-color);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.counsel {
+    color: var(--second-bg-color);
+    font-style: oblique;
+}
+
+
+/* Add CSS to style the image cards and make them display in a single row */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.crop-card {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    /* border: 1px white; */
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px rgba(49, 49, 49, 0.799);
+}
+
+.crop-card img {
+    border-bottom: 2px solid black;
+}
+
+
+.crop-card-content p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+    box-shadow: 0 0 .6rem rgb(67, 65, 65);
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .2s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: var(--second-bg-color);
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 3.2rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
+.container {
+    max-width: 84%;
+    background: rgb(245, 255, 209);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 11%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 2.8rem;
+}
+
+.state-selector {
+    margin: 20px;
+    padding: 10px;
+}
+
+.city-selector {
+    margin: 20px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.area-selector {
+    margin: 20px;
+    padding: 10px;
+}
+
+.message {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 10px;
+    /* margin-left: 10%; */
+    padding: 10px;
+}
+
+.message p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.predictions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.predictions h2 {
+    color: var(--second-bg-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.predictions h3 {
+    color: var(--second-bg-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#cityDropdown {
+    border: 2px solid var(--second-bg-color);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 2px;
+    width: 80%;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#stateDropdown {
+    border: 2px solid var(--second-bg-color);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 2px;
+    width: 80%;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#areaDropdown {
+    border: 2px solid var(--second-bg-color);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 2px;
+    width: 80%;
+    font-size: 1.6rem;
+    cursor: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 4rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+    margin-left: 5rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: black;
+    border-radius: .8rem;
+    transition: .1s ease;
+}
+
+.footer-iconTop a:hover {
+    transform: scale(1.2);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: white;
+}
+
+
+@media screen and (max-width: 1502px) {
+    .btn {
+        margin-left: 180px;
+    }
+}
+
+
+@media screen and (max-width: 1202px) {
+    .btn {
+        margin-left: 180px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .crop-card {
+        width: fit-content;
+        margin: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) { 
+    .city-selector {
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .btn {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1060px) { 
+    .btn {
+        margin-left: 100px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    .crop-card {
+        width: fit-content;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .state-selector {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .city-selector {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .area-selector {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .btn {
+        margin-left: 180px;
+    }
+
+    .row {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .crop-card {
+        width: fit-content;
+        margin: 35px;
+        margin-bottom: 20px;
+    }
+}
