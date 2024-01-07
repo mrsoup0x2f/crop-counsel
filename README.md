@@ -18,7 +18,7 @@ By analyzing historical data and using predictive models, the system provides pe
 ## Important Links
 1. Dataset - https://aps.dac.gov.in/Home.aspx?ReturnUrl=%2f
 2. Demo Video - https://youtu.be/tdUZOYVKKeo
-3. Pickle File (Drive Link) - https://drive.google.com/drive/folders/1pQ3Zl73cgnQj2YCESGPTF_UqFFZQYOkf?usp=sharing
+3. Pickle Files - https://drive.google.com/drive/folders/1pQ3Zl73cgnQj2YCESGPTF_UqFFZQYOkf?usp=sharing
 
 ## Stages of development
 1. Input Data Collection: The system allows users to input relevant data such as soil parameters, climate information, and geographic location.
