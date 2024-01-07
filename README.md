@@ -20,7 +20,7 @@ By analyzing historical data and using predictive models, the system provides pe
 
 ## Important Links
 1. Dataset - https://aps.dac.gov.in/Home.aspx?ReturnUrl=%2f
-2. Demo Video - https://youtu.be/tdUZOYVKKeo
+2. Demo Video - https://youtu.be/tExfef-Tk9c
 3. Pickle Files - https://drive.google.com/drive/folders/1pQ3Zl73cgnQj2YCESGPTF_UqFFZQYOkf?usp=sharing
 4. Report - https://drive.google.com/file/d/1FoCSh9tk-4MqUj9TjT8-Dj-EHybhD5BW/view?usp=sharing
 
