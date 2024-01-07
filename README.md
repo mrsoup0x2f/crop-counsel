@@ -1,12 +1,12 @@
 # Crop Counsel
 
 ## Introduction
-Crop Counsel is a machine learning based crop-prediction model to support farmers in making informed decisions about crop selection, plantation and harvesting.
-It aims to optimize yields and maximize profitability of farmers using data driven smart prediction mechanism.
+`Crop Counsel` is a machine learning based crop-prediction model to support farmers in making informed decisions about `crop selection`, plantation and harvesting.
+It aims to `optimize yields` and `maximize profitability` of farmers using data driven smart prediction mechanism.
 ##### Underlying principles - 
 1. We have developed and applied a smart system that can suggest suitable crops for farmers across India using the emerging power of machine learning.
-2. This system would help the farmers choose the best crop based on factors like Nitrogen, Phosphorous, Potassium, PH Value, Humidity, Temperature, and Rainfall.
-3. Based on the previous records of the State and City ,farmers also get an estimated yield of the common crop according to the available land area.
+2. This system would help the farmers choose the best crop based on factors like `Nitrogen`, `Phosphorous`, `Potassium`, `PH Value`, `Humidity`, `Temperature`, and `Rainfall`.
+3. Based on the previous records of the `State` and `City` ,farmers also get an estimated yield of the common crop according to the available land area.
 4. Models underlying the system are trained on realtime dataset with a high level of accuracy suggestion.
 
 The portal consists of two part -
@@ -21,23 +21,23 @@ By analyzing historical data and using predictive models, the system provides pe
 3. Pickle Files - https://drive.google.com/drive/folders/1pQ3Zl73cgnQj2YCESGPTF_UqFFZQYOkf?usp=sharing
 
 ## Stages of development
-1. Input Data Collection: The system allows users to input relevant data such as soil parameters, climate information, and geographic location.
-2. Data Preprocessing: The input data is preprocessed to handle missing values, normalize or scale features, and transform categorical variables.
-3. Machine Learning Models: Various machine learning algorithms are employed, including decision trees, random forests, support vector machines (SVM), and gradient boosting techniques, to build predictive models.
-4. Model Training and Evaluation: The models are trained on historical data and evaluated using appropriate performance metrics to ensure accuracy and reliability.
-5. Crop Recommendation: Based on the trained models, the system recommends the most suitable crops for the given input parameters.
-6. User-Friendly Interface: The system provides a user-friendly interface where users can easily input their data, view recommendations, and explore additional information.
+1. `Input Data Collection`: The system allows users to input relevant data such as `soil parameters`, `climate information`, and `geographical location`.
+2. `Data Preprocessing`: The input data is preprocessed to handle missing values, normalize or scale features, and transform categorical variables.
+3. `Machine Learning Models`: Various machine learning algorithms are employed, including `Decision Tree`, `Random Forest`, `Support Vector Machines` (SVM), and `Gradient Boosting` techniques, to build predictive models.
+4. `Model Training and Evaluation`: The models are trained on historical data and evaluated using appropriate performance metrics to ensure accuracy and reliability.
+5. `Crop Recommendation`: Based on the trained models, the system recommends the most suitable crops for the given input parameters.
+6. `User-Friendly Interface`: The system provides a user-friendly responsive interface where users can easily input their data, view recommendations, and explore additional information.
 
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/eba84e5b-83a5-475c-bdb9-1e152466a8aa)
 
 
 ## Requirements
 ##### Hardware - 
-1. System: Pentium i3 processor and above.
-2. Hard Disk: `500 GB and more`.
-3. RAM: 4 GB and above
+1. System: `Pentium i3` processor and above.
+2. Hard Disk: `500 GB` and more.
+3. RAM: `4 GB` and above
 ##### Software - 
-1. Operating system   : Windows 10 & above
+1. Operating system   : `Windows 10` & above
 
 
 ## Technologies used
