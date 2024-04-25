@@ -34,7 +34,7 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 ## Stages of development
 1. `Input Data Collection`: The system allows users to input relevant data such as `soil parameters`, `climate information`, and `geographical location`.
 2. `Data Preprocessing`: The input data is preprocessed to handle missing values, normalize or scale features, and transform categorical variables.
-3. `Machine Learning Models`: Various machine learning algorithms are employed, including `Decision Tree`, `Random Forest`, `Support Vector Machines` (SVM), and `Gradient Boosting` techniques, to build predictive models.
+3. `Machine Learning Models`: Various machine learning algorithms are employed, including `Decision Tree`, `Random Forest`, `Support Vector Machines` (SVM), `Convolutional Neural Network` (CNN) and `Gradient Boosting` techniques, to build predictive models.
 4. `Model Training and Evaluation`: The models are trained on historical data and evaluated using appropriate performance metrics to ensure accuracy and reliability.
 5. `Crop Recommendation`: Based on the trained models, the system recommends the most suitable crops for the given input parameters.
 6. `Disease Detection`: It takes the clear image of a leaf of the particular crop and predicts the result as name of the disease.
