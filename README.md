@@ -53,9 +53,10 @@ By analyzing historical data and using predictive models, the system provides pe
 
 ## Screenshots
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/home.jpg)
-![image](https://github.com/candy-kush/crop-counsel/assets/96912080/b3fe339e-2a1e-4020-a11d-b3365f9042f5)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/our-services.png)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/dd2713bc-e420-422e-ad3e-de2802878a1f)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/4004bc0f-393e-4782-8a28-5a2c8b99b260)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/soil-recommended.jpg)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/8104bca6-8800-4d6f-a42c-a8fe897b5294)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/20c65f00-f5f5-400e-b36d-679c0b4ada7a)
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/uploaded-image.jpg)
