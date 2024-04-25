@@ -59,7 +59,7 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 ##### 4. Other Tools : Flask, Weather API, MySql, Apache
 
 ## Collaborators
-1. Praveen Patel - @mrsoup0x2f
+<a href="https://github.com/mrsoup0x2f" target="_blank">Praveen Patel</a>
 
 ## Screenshots
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/home.jpg)
