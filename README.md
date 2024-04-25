@@ -25,7 +25,7 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 
 ## Important Links
 1. Dataset for geolocation-based recommendation - https://aps.dac.gov.in/Home.aspx?ReturnUrl=%2f
-2. Dataset for soil-based recommendation - https://icfa.org.in/
+2. Dataset for soil-based recommendation - https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 3. Dataset for disease detection - https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset?resource=download
 4. Demo Video - https://youtu.be/tExfef-Tk9c
 5. Pickle Files - https://drive.google.com/drive/folders/1KYVnDR0ijuLY9Iu2BrSPCDNh11NBd1nX?usp=sharing
