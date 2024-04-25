@@ -20,6 +20,9 @@ By analyzing historical data and using predictive models, the system provides pe
 ##### 3. Disease detection
 The disease detection feature scan and analyze the patterns and the unusual developments on the leaves of the plant and gives us the output of what kind of disease has captured the crop.
 
+## Other Features
+The website consists of a beautiful and easy to use Login/Register portal. It also supports user authentication and error handling. The user information is stored in database connected via MySql and running on Apache server. It is administered by phpMyAdmin.
+
 ## Important Links
 1. Dataset for geolocation-based recommendation - https://aps.dac.gov.in/Home.aspx?ReturnUrl=%2f
 2. Dataset for soil-based recommendation - https://icfa.org.in/
@@ -66,3 +69,5 @@ The disease detection feature scan and analyze the patterns and the unusual deve
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/20c65f00-f5f5-400e-b36d-679c0b4ada7a)
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/uploaded-image.jpg)
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/predicted-disease.jpg)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/register.jpg)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/login.jpg)
