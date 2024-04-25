@@ -58,6 +58,8 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 ##### 3. Frontend Tools : HTML, CSS, Bootstrap, Javascript, pHp
 ##### 4. Other Tools : Flask, Weather API, MySql, Apache
 
+## Collaborators
+1. Praveen Patel - @mrsoup0x2f
 
 ## Screenshots
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/home.jpg)
