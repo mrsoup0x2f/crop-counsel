@@ -69,5 +69,8 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/soil-recommended.jpg)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/8104bca6-8800-4d6f-a42c-a8fe897b5294)
 ![image](https://github.com/candy-kush/crop-counsel/assets/96912080/20c65f00-f5f5-400e-b36d-679c0b4ada7a)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/disease.png)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/disease-pic-upload.png)
+![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/disease-result.png)
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/register.jpg)
 ![image](https://github.com/candy-kush/crop-counsel/blob/main/static/crop_state/login.jpg)
