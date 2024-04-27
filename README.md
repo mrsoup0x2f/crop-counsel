@@ -1,5 +1,4 @@
 # Crop Counsel
-
 <img src="https://github.com/candy-kush/crop-counsel/assets/96912080/2ff035df-4e28-4046-994d-ea584077e822" width="300" height="200">
 <img src="https://github.com/candy-kush/crop-counsel/assets/96912080/62d24ccb-6b30-4ff4-bb25-cc4a95505d6d" width="300" height="200">
 
