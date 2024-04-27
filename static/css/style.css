@@ -47,7 +47,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1.4% 4% 1.4% 1%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -85,11 +85,19 @@ section {
     text-decoration: underline;
 }
 
+.img-logo {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+}
+
 .logo {
     font-size: 3.2rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: pointer;
+    margin-left: 11%;
 }
 
 #menu-icon {
@@ -312,10 +320,12 @@ section {
 .contact form .btn-block p {
     margin: 1.2rem;
     font-size: 1.6rem;
+    color: white;
 }
 
 .contact form .btn-block a {
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 label#icon {
@@ -362,6 +372,7 @@ input[type=email] {
 .footer-text p {
     font-size: 1.6rem;
     margin-left: 5rem;
+    color: white;
 }
 
 .footer-iconTop a {
@@ -647,6 +658,13 @@ select {
     }
 }
 
+@media screen and (max-width: 950px) {
+    .header {
+        padding: 2% 4% 2% 2%;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
 
     .booking-card {
@@ -689,6 +707,10 @@ select {
         display: block;
     }
 
+    .header {
+        padding: 2.4% 4.5% 2.5% 2.4%;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -722,6 +744,21 @@ select {
 }
 
 @media screen and (max-width: 550px) {
+
+    .logo {
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+        margin-right: 10%;
+    }
+
+
+    .img-logo {
+        visibility: visible;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
 
     .booking-card {
         width: 100%;
