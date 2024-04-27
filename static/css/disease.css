@@ -122,6 +122,14 @@ input[type='file'] {
     font-style: oblique;
 }
 
+
+.img-logo {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+}
+
 .logo {
     font-size: 3.2rem;
     color: var(--text-color);
@@ -303,6 +311,15 @@ input[type='file'] {
 }
 
 
+@media screen and (max-width: 950px) {
+    .header {
+        padding: 2% 4% 2% 2%;
+    }
+}
+
+
+
+
 @media screen and (max-width: 767px) {
 
     .container {
@@ -318,6 +335,10 @@ input[type='file'] {
 
     #menu-icon {
         display: block;
+    }
+
+    .header {
+        padding: 2.4% 4.5% 2.5% 2.4%;
     }
 
     .navbar {
@@ -340,6 +361,24 @@ input[type='file'] {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .logo {
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+        margin-right: 10%;
+    }
+
+
+    .img-logo {
+        visibility: visible;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
     }
 }
 
