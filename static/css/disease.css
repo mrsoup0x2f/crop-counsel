@@ -317,7 +317,11 @@ input[type='file'] {
     }
 }
 
-
+@media screen and (max-width: 900px) {
+    .drop-zone {
+        width: 100%;
+    }
+}
 
 
 @media screen and (max-width: 767px) {
@@ -366,6 +370,10 @@ input[type='file'] {
 
 @media screen and (max-width: 550px) {
 
+    .header {
+        padding: 1% 2% 1% 1%;
+    }
+
     .logo {
         visibility: hidden;
         width: 0;
@@ -373,6 +381,10 @@ input[type='file'] {
         margin-right: 10%;
     }
 
+    .drop-zone {
+        width: 90%;
+        margin-bottom: 40px;
+    }
 
     .img-logo {
         visibility: visible;
