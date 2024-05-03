@@ -26,8 +26,8 @@ The website consists of a beautiful and easy to use Login/Register portal. It al
 1. Dataset for geolocation-based recommendation - https://aps.dac.gov.in/Home.aspx?ReturnUrl=%2f
 2. Dataset for soil-based recommendation - https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 3. Dataset for disease detection - https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset?resource=download
-4. Demo Video - https://youtu.be/tExfef-Tk9c
-5. Report - https://drive.google.com/file/d/1FoCSh9tk-4MqUj9TjT8-Dj-EHybhD5BW/view?usp=sharing
+4. Demo Video - https://youtu.be/ijlphVaZ3YI
+5. Report - https://drive.google.com/file/d/1KCZ0o0oB6Dzb-8IlpVn3NkkV2JKCkJpd/view?usp=sharing
 
 ## Stages of development
 1. `Input Data Collection`: The system allows users to input relevant data such as `soil parameters`, `climate information`, and `geographical location`.
